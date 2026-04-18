@@ -1,0 +1,53 @@
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Auto-generated
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Python (for MCP helpers)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Logs
+*.log
+
+# Packaged builds
+Packaged/
+Build/
+
+# Marketplace sample content (re-importable, excluded to save repo size/LFS)
+# If needed, re-download from Epic Marketplace:
+# - "Stylized Provencal" asset pack
+# - Goblin character pack
+# - UE5 Third Person template (Demo/Mannequin)
+Content/StylizedProvencal/
+Content/Goblin/
+Content/Demo/
+SylizedProvencal.png
+
+# Claude scratch files
+/.claude/scratch/
+/.claude/settings.local.json
